@@ -1,0 +1,22 @@
+{
+  "name": "sclabble-course-work-2",
+  "version": "1.0.0",
+  "description": "term project",
+  "license": "ISC",
+  "author": "ahmad saad",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
